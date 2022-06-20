@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+.about-page {
+    .info {
+        width: 100%;
+        font-family: monospace;
+        background-color: rgb(255, 253, 253);
+        * {
+            box-shadow: border-box;
+        }
+
+        .container {
+            width: 80%;
+            // display: block;
+            margin: auto;
+            padding-top: 80px;
+        }
+        .content-section {
+            float: left;
+            width: 55%;
+
+            h1{
+                font-size: 40px;
+                font-family: "font-2";
+                color: #673AB7;
+            }
+        }
+        .image-section {
+            float: right;
+            width: 45%;
+            padding-left: 40px;
+        }
+        .image-section {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .content-section {
+            .content {
+                h3 {
+                    margin-top: 40px;
+                    margin-bottom: 20px;
+                    color: #5d5d5d;
+                    font-size: 21px;
+                    font-family: monospace;
+                    font-weight: 500;
+                }
+                p {
+                    margin-top: 10px;
+                    font-size: 18px;
+                    line-height: 1.5;
+                }
+                .buttom {
+                    margin-top: 30px;
+                    a {
+                        background-color: #3d3d3d;
+                        padding: 12px 40px;
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 25px;
+                        letter-spacing: 1.5px;
+                    }
+                    a:hover {
+                        background-color: #a52a2a;
+                        color: #fff;
+                    }
+                }
+            }
+            .social {
+                margin: 40px 40px;
+                i {
+                    color: #a52a2a;
+                    font-size: 30px;
+                    padding: 0px 10px;
+                }
+                i:hover {
+                    color: #3d3d3d;
+                }
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                padding-top: 50px;
+                display: inline; //
+            }
+            .content-section {
+                float: none;
+                width: 100%;
+                display: block;
+                margin: auto;
+                .title {
+                    text-align: center;
+                    font-size: 19px;
+                }
+                .content {
+                    padding: 0 10px;
+                    .buttom {
+                        text-align: center;
+                        a {
+                            padding: 9px 30px;
+                        }
+                    }
+                }
+                .social {
+                    text-align: center;
+                }
+            }
+            .image-section {
+                float: none;
+                width: 100%;
+                padding: 10px;
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                    margin: auto;
+                }
+            }
+        }
+    }
+    .team {
+        background-color: rgb(237, 244, 252);
+        font-family: "Poppins", sans-serif;
+        padding-top: 10px;
+
+        .container-team {
+            margin: 20px 40px;
+
+            .heading {
+                font-size: 50px;
+                font-family: "font-2";
+                color: #673AB7;
+            }
+
+            .heading {
+                span {
+                    font-style: italic;
+                    font-size: 30px;
+                }
+            }
+
+            .profiles {
+                display: flex;
+                justify-content: space-around;
+                margin: 20px 80px;
+                .profile {
+                    flex-basis: 260px;
+                    .profile-img {
+                        height: 260px;
+                        width: 260px;
+                        border-radius: 50%;
+                        filter: grayscale(30%);
+                        cursor: pointer;
+                        transition: 400ms;
+                    }
+                    .user-name {
+                        margin-top: 30px;
+                        font-size: 35px;
+                        font-family: monospace;
+                        font-weight: 100;
+                    }
+                    h5 {
+                        font-size: 18px;
+                        font-weight: 100;
+                        letter-spacing: 3px;
+                        // color: #ccc;
+                    }
+                    p {
+                        font-size: 16px;
+                        margin-top: 20px;
+                        text-align: justify;
+                    }
+                }
+                .profile:hover {
+                    .profile-img {
+                        filter: grayscale(0);
+                        border-radius: 25%;
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 1150px) {
+            .profiles {
+                flex-direction: column;
+
+                .profile {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    p {
+                        text-align: center;
+                        margin: 20px 60px 80px 60px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 900px) {
+            .heading {
+                font-size: 40px;
+                color: white;
+                text-align: center;
+                span {
+                    font-size: 15px;
+                }
+            }
+
+            .profiles {
+                margin: 20px 0;
+                .profile {
+                    p {
+                        margin: 20px 10px 80px 10px;
+                    }
+                }
+            }
+        }
+    }
+}

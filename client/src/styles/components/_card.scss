@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+.Bien {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  .bien {
+    background-color: #eee;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 150px;
+    padding-top: 50px;
+  }
+  
+  .grid {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      display: grid;
+      width: 114em;
+      grid-gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      align-items: flex-start;
+    }
+    
+    .grid-item {
+      background-color: #fff;
+      border-radius: 1rem;
+      overflow: hidden;
+      box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+      transition: 0.2s;
+      max-width: 500px;
+    }
+    
+    .grid-item:hover {
+      transform: translateY(-0.5%);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    }
+    
+    .card-img {
+      display: block;
+      width: 100%;
+      height: 13rem;
+      object-fit: cover;
+      cursor: pointer;
+    }
+    .card-img:hover{
+      opacity: 0.9;
+    }
+    
+    .card-content {
+      padding: 0 4.5rem 1.5rem 1.5rem;
+    }
+    
+    .card-header {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #673AB7;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      .right-info-card{
+        font-weight: 500;
+      }
+    }
+    
+    .card-text {
+      font-size: 1.1rem;
+      letter-spacing: 0.1rem;
+      color: #3d3d3d;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+    .left-title-card{
+      width: 60%;
+      display: flex;
+    }
+    .right-title-card{
+      width: 40%;
+      // padding-left: 10px;
+    }
+    .left-info-card{
+      width: 50%;
+      display: flex;
+    }
+    .right-info-card{
+      width: 50%;
+      padding-left: 10px;
+    }
+   
+    .like-btn{
+      margin-bottom: -30px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-right: 14px;
+      font-size: 20px;
+      font-weight: 600;
+      font-family: monospace;
+      justify-content: flex-end;
+      cursor: pointer;
+    }
+
+    button{
+      font-size: 1.2rem;
+      cursor: pointer;
+      text-decoration: none;
+      font-style: normal;
+      border-radius: .3rem;
+      padding: .5rem;
+      background-color: #fff;
+      border: 1px solid #673AB7;
+      color: #673AB7 !important;
+      box-shadow: 0 0.05em .1em rgba(0, 0, 0, .25);
+      margin-bottom: 15px;
+      margin-left: 2rem;
+  }
+
+ button:hover{
+    transition: .5s;
+    background-color: #673AB7;
+    border: 1px solid #673AB7;
+    color: #fff !important;
+    text-decoration: none;
+}
+    
+    @media only screen and (max-width: 60em) {
+      .bien {
+        padding: 3rem;
+      }
+    
+      .grid {
+        grid-gap: 3rem;
+      }
+    }
+    
+}
+

@@ -1,0 +1,93 @@
+.widgetSm-admin {
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin-right: 20px;
+}
+.widgetSm-admin .widgetSmTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetSm-admin .widgetSmImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetSm-admin .widgetSmList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widgetSm-admin .widgetSmListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.widgetSm-admin .widgetSmUser {
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetSm-admin .widgetSmUsername {
+    font-weight: 600;
+}
+
+.widgetSm-admin .widgetSmUserTitle {
+    font-weight: 300;
+}
+
+.widgetSm-admin .widgetSmButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.widgetSm-admin .widgetSmIcon {
+    font-size: 16px !important;
+    margin-right: 5px;
+}
+
+.widgetSm-admin .titre {
+    font-size: 17px;
+    font-weight: 550;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+.widgetSm-admin .nom {
+    margin-left: 103px;
+}
+.widgetSm-admin .email {
+    margin-left: 75px;
+}
+.widgetSm-admin .date {
+    margin-left: 145px;
+}
+.widgetSm-admin .telephone {
+    margin-left: 43px;
+}
+
+.widgetSm-admin .agenceAddButton {
+    width: 100px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    right: 40%;
+    top: 92vh;
+}

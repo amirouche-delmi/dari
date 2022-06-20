@@ -1,0 +1,5 @@
+client/public/uploads
+client/node_modules
+client/.env
+server/node_modules
+server/config/.env

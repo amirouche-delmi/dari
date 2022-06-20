@@ -1,0 +1,144 @@
+.agence-profil {
+  flex: 4;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  padding-top: 25px;
+  margin: 0px 20px 10px 20px;
+  font-size: 120%;
+}
+.agence-profil .title{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.agence-profil .agenceContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.agence-profil .agenceContainer .left {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.agence-profil .agenceContainer .left .top {
+  display: flex;
+  align-items: center;
+}
+.agence-profil .agenceContainer .left .top .img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.agence-profil .agenceContainer .left .top .top-title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.agence-profil .agenceContainer .left .top .top-title .agence-name {
+  font-weight: 600;
+}
+
+.agence-profil .agenceContainer .left .top .top-title .agence-title {
+  font-weight: 300;
+}
+.agence-profil .agenceContainer .left .bottom {
+  margin-top: 20px;
+}
+.agence-profil .agenceContainer .left .bottom .bottom-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+.agence-profil .agenceContainer .left .bottom .info {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+
+.agence-profil .agenceContainer .left .bottom .info .icon {
+  font-size: 16px !important;
+}
+.agence-profil .agenceContainer .left .bottom .info .info-title {
+  margin-left: 10px;
+}
+
+.agence-profil .agenceContainer .agenceUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 20px;
+}
+
+.agence-profil .agenceContainer .agenceUpdate .agence-update-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.agence-profil .agenceContainer .agenceUpdate .agenceUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.agence-profil .agenceContainer .agenceUpdate .agenceUpdateLeft .agenceUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.agence-profil .agenceContainer .agenceUpdate .agenceUpdateLeft .agenceUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.agence-profil .agenceContainer .agenceUpdate .agenceUpdateLeft .agenceUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.agence-profil .agenceContainer .agenceUpdate .agenceUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.agence-profil .agenceContainer .agenceUpdate .agenceUpdateRight .agenceUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+
+.agence-profil .agenceContainer .agenceUpdate .agenceUpdateRight .agenceUpdateUpload .agenceUpdateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.agence-profil .agenceContainer .agenceUpdate .agenceUpdateRight .agenceUpdateUpload .agenceUpdateIcon {
+  cursor: pointer;
+}
+
+.agence-profil .agenceContainer .agenceUpdate .agenceUpdateRight .agenceUpdateButton {
+  position: relative;
+  bottom: -30px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+}
+.agence-profil .agenceContainer .agenceUpdate .agenceUpdateRight .agenceUpdateButton:hover{
+  background: green;
+}

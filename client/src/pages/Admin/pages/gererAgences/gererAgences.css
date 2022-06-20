@@ -1,0 +1,64 @@
+.widgetLg-gerer-agences {
+    flex: 4;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    padding-top: 25px;
+    margin: 0px 20px 10px 20px;
+    font-size: 120%;
+}
+.widgetLg-gerer-agences .widgetLgTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetLg-gerer-agences .widgetLgTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.widgetLg-gerer-agences .widgetLgTh {
+    text-align: left;
+}
+
+.widgetLg-gerer-agences .widgetLgUser {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.widgetLg-gerer-agences .widgetLgImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.widgetLg-gerer-agences .widgetLgDate{
+    font-weight: 400;
+}
+.widgetLg-gerer-agences .nb{
+    text-align: center;
+}
+.widgetLg-gerer-agences .delete{
+    position: relative;
+    left: 25px;
+    cursor: pointer;
+}
+.widgetLg-gerer-agences .widgetButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+    position: relative;
+    right: -10px;
+}
+
+.widgetLg-gerer-agences .widgetIcon {
+    font-size: 16px !important;
+}

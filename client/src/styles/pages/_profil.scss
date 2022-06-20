@@ -1,0 +1,168 @@
+.profil-page {
+  font-family: $font-2;
+  margin: 0px;
+
+  .log-container {
+    padding: 50px 20px 280px 20px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background: url(../img/ajouterAnnonce.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+
+    @media screen and(max-width: 885px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .connection-form {
+    border: none;
+    background: $color-4;
+    min-width: 490px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+
+    background-color: rgba(0,0,0,0.5); //
+    border: 1px soid rgba(255, 255, 255, 0.3); //
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3); //
+    color: white;
+
+    @media screen and(max-width: 550px) {
+      min-width: 200px;
+    }
+
+    .form-container {
+      display: grid;
+      grid-template-columns: 30% 70%;
+
+      @media screen and(max-width: 550px) {
+        grid-template-columns: 1fr;
+      }
+
+      ul {
+        li {
+          cursor: pointer;
+          border-radius: 20px;
+          padding: 10px 20px;
+          transition: 0.2s;
+
+          @media screen and(max-width: 550px) {
+            width: 80%;
+            margin: 0 auto;
+          }
+        }
+        .active-btn {
+          background: $color-1;
+
+          &:hover {
+            background: $color-2;
+          }
+        }
+        li:not(.active-btn) {
+          &:hover {
+            transform: translateX(3px);
+          }
+        }
+        #login {
+          position: relative;
+          @media screen and(max-width: 550px) {
+            margin-bottom: 30px;
+
+            &:after {
+              content: "";
+              position: absolute;
+              bottom: -10px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 80%;
+              height: 1px;
+              background: $color-2;
+            }
+          }
+        }
+      }
+      form {
+        input {
+          //padding: 14px 20px;
+          padding: 0px 20px;//
+          margin: 0;
+          font-size: 1.2rem;
+          font-family: $font-2;
+          border-radius: 20px;
+          height: 35px; //
+          
+
+          &:focus {
+            box-shadow: 0 0 3px rgba(51, 51, 51, 0.2);
+          }
+        }
+        a {
+          color: greenyellow;
+          
+        }
+      }
+    }
+    input[type="email"], input[type="text"], input[type="password"], input[type="checkbox"]{ //
+      background: rgba(255, 255, 255, .7);//
+    }
+  }
+  h1 {
+    text-align: center;
+    margin: 10px 0 6px;
+  }
+  .img-container {
+    display: grid;
+    align-items: center;
+    height: 100%;
+
+    img {
+      height: 280px;
+
+      @media screen and(max-width: 1050px) {
+        height: 220px;
+      }
+      @media screen and(max-width: 950px) {
+        height: 200px;
+      }
+      @media screen and(max-width: 885px) {
+        display: none;
+      }
+    }
+  }
+
+  button,
+  input[type="submit"] {
+    background: $color-2;
+    color: $color-1;
+    font-family: $font-3;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 20px 6px 20px 20px;
+  
+    &:hover {
+      background: $color-1;
+      color: $color-2;
+    }
+  }
+  .checkbox{
+    display: flex; //
+    flex-direction: row;//
+    align-items: center; //
+    justify-content: center; //
+  }
+  input[type="checkbox"] {
+    box-shadow: none;
+    width: 20px;
+    //margin: 10px 0;
+  }
+  #terms{
+    margin-right: 10px; //
+  }
+}

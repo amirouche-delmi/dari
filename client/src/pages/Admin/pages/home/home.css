@@ -1,0 +1,14 @@
+.home-admin{
+    flex: 4.165;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 10px ;
+    padding-top: 25px;
+    margin: 0px 20px 10px 20px;
+    font-size: 120%;
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}

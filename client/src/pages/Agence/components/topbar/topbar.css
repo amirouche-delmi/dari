@@ -1,0 +1,71 @@
+.topbar-agence {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbar-agence .topbarWrapper {
+  height: 100%;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbar-agence .logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: darkblue;
+  cursor: pointer;
+}
+
+.topbar-agence .topRight {
+  display: flex;
+  align-items: center;
+}
+
+.topbar-agence .topbarIconContainer {
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #555;
+}
+
+.topbar-agence .topIconBadge {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.topbar-agence .topAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.topbar-agence .topRight .logout {
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: rgb(24, 163, 24);
+  color: white;
+}
+.topbar-agence .topRight .logout:hover {
+  background-color: rgb(196, 245, 196);
+  color:green;
+  transition: 0.2s;
+}

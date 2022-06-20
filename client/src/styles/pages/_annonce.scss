@@ -1,0 +1,59 @@
+.annonce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background-color: #eee;
+    padding-bottom: 80px;
+
+    .top-img{
+        width: 65%;
+        max-height: 70vh;
+        min-width: 450px;
+        margin: 20px 0px;
+        border-radius: 10px;
+        // box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+    }
+    
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: inherit;
+        width: 100%;  
+    }
+    
+    .left-info{
+        min-width: 450px;
+        width: 45%;
+        text-align: center;
+        font-family: monospace;
+        border: 1px solid greenyellow;
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
+    }
+    h1{
+        font-size: 250%;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+    b{
+        font-size: 170%;
+        font-style: italic;
+    }
+    span, a{
+        font-size: 150%;
+        font-style: normal;
+    }
+    .right-img{
+        width: 45%;
+        max-height: 47vh;
+        min-width: 350px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
+        border: 1px solid greenyellow;
+    }
+}

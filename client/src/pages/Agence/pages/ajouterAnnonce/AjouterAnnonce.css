@@ -1,0 +1,63 @@
+.ajouter-annonce-agence{
+  flex: 4;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  padding-top: 25px;
+  margin: 0px 20px 10px 20px;
+  font-size: 120%;
+}
+.ajouter-annonce-agence h1{
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.ajouter-annonce-agence form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.ajouter-annonce-agence form .left{
+  width: 50%;
+  min-width: 310px;
+}
+.ajouter-annonce-agence form .right{
+  width: 50%;
+  min-width: 310px;
+}
+
+.ajouter-annonce-agence form input[type="text"],
+.ajouter-annonce-agence form input[type="email"]
+{
+  width: 300px;
+  height: 25px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.ajouter-annonce-agence form textarea{
+  width: 300px;
+  height: 70px;
+  border: 1px solid #000;
+  padding: 5px 10px;
+}
+.ajouter-annonce-agence form input[type="radio"]{
+  width: 40px;
+  height: 10px;
+  border: 1px solid #000;
+}
+.ajouter-annonce-agence form input[type="submit"]{
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  width: 150px;
+}
+.ajouter-annonce-agence form input[type="submit"]:hover{
+  background: green;
+}
